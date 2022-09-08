@@ -1,0 +1,110 @@
+@font-face {
+  font-family: Silkscreen;
+  src: url(/resources/fonts/Silkscreen-Regular.ttf);
+  font-weight: regular;
+}
+
+@font-face {
+  font-family: Oswald;
+  src: url(/resources/fonts/Oswald-Light.ttf);
+  font-weight: regular;
+}
+
+@font-face {
+  font-family: Bubblegum Sans;
+  src: url(/resources/fonts/BubblegumSans-Regular.ttf);
+  font-weight: regular;
+}
+
+.backcolor{
+  background-color: #5c6378;
+  font-family: oswald;
+}
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #8d99ae;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.maintoplogo{
+  width: 100%;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffff;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav .active{
+  background-color: #5c6378;
+}
+.pages:hover {
+  background-color:#5c6378;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: #fff;
+}
+
+#main {
+  transition: margin-left .5s;
+  margin-left: 250px;
+  padding: 16px;
+}
+
+#navonclose{
+  color: #5c6378;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* Footer */
+footer ul{
+  list-style-type: none;
+}
+
+.footer{
+  transition: margin-left .5s;
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #8d99ae;
+  color: white;
+  margin-left: 250px;
+}
+
+.companylogo{
+  font-family: Silkscreen;
+  border: #000 solid;
+  background-color: #000;
+  text-align: center;
+}
+.footlogo{
+  color: #037cb5;
+}
+.companyinfo{
+  text-align: left;
+}
+.footer-links{
+  text-align: left;
+}
+.companyreach{
+  font-size: small;
+}
+
